@@ -7,13 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		102FA8C91B4055D000F5C185 /* ScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 102FA8C81B4055D000F5C185 /* ScoreViewController.m */; };
+		102FA8CC1B4074D800F5C185 /* BuildWordTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 102FA8CB1B4074D800F5C185 /* BuildWordTableViewController.m */; };
 		107A2D741B25C57C00CB567D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 107A2D731B25C57C00CB567D /* main.m */; };
 		107A2D771B25C57C00CB567D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 107A2D761B25C57C00CB567D /* AppDelegate.m */; };
-		107A2D7A1B25C57C00CB567D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 107A2D791B25C57C00CB567D /* ViewController.m */; };
 		107A2D7D1B25C57C00CB567D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 107A2D7B1B25C57C00CB567D /* Main.storyboard */; };
 		107A2D7F1B25C57C00CB567D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 107A2D7E1B25C57C00CB567D /* Images.xcassets */; };
 		107A2D821B25C57C00CB567D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 107A2D801B25C57C00CB567D /* LaunchScreen.xib */; };
 		107A2D8E1B25C57C00CB567D /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 107A2D8D1B25C57C00CB567D /* ___Tests.m */; };
+		107F3CC81B3E95AA00AFBA1C /* WordTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 107F3CC71B3E95AA00AFBA1C /* WordTestViewController.m */; };
+		107F3CD01B3E9D9D00AFBA1C /* chineseAnser@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 107F3CCA1B3E9D9D00AFBA1C /* chineseAnser@3x.png */; };
+		107F3CD11B3E9D9D00AFBA1C /* wordTestCard@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 107F3CCB1B3E9D9D00AFBA1C /* wordTestCard@3x.png */; };
+		107F3CD21B3E9D9D00AFBA1C /* chineseAnser@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 107F3CCC1B3E9D9D00AFBA1C /* chineseAnser@2x.png */; };
+		107F3CD31B3E9D9D00AFBA1C /* wordTestCard@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 107F3CCD1B3E9D9D00AFBA1C /* wordTestCard@1x.png */; };
+		107F3CD41B3E9D9D00AFBA1C /* wordTestCard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 107F3CCE1B3E9D9D00AFBA1C /* wordTestCard@2x.png */; };
+		107F3CD51B3E9D9D00AFBA1C /* chineseAnser@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 107F3CCF1B3E9D9D00AFBA1C /* chineseAnser@1x.png */; };
+		107F3CDC1B3EE16700AFBA1C /* wrong@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 107F3CD61B3EE16700AFBA1C /* wrong@1x.png */; };
+		107F3CDD1B3EE16700AFBA1C /* wrong@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 107F3CD71B3EE16700AFBA1C /* wrong@2x.png */; };
+		107F3CDE1B3EE16700AFBA1C /* wrong@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 107F3CD81B3EE16700AFBA1C /* wrong@3x.png */; };
+		107F3CDF1B3EE16700AFBA1C /* corrent@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 107F3CD91B3EE16700AFBA1C /* corrent@2x.png */; };
+		107F3CE01B3EE16700AFBA1C /* corrent@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 107F3CDA1B3EE16700AFBA1C /* corrent@1x.png */; };
+		107F3CE11B3EE16700AFBA1C /* corrent@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 107F3CDB1B3EE16700AFBA1C /* corrent@3x.png */; };
+		107F3CE41B3F042500AFBA1C /* WordCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 107F3CE31B3F042500AFBA1C /* WordCard.m */; };
+		107F3CEB1B3FDFAD00AFBA1C /* WordCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 107F3CEA1B3FDFAD00AFBA1C /* WordCardDeck.m */; };
+		109BDCB51B41ABD900F293CF /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 109BDCB41B41ABD900F293CF /* Property List.plist */; };
+		109BDCF41B43015A00F293CF /* WordDataDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 109BDCF31B43015A00F293CF /* WordDataDataBase.m */; };
+		10C9DBAB1B3C51BB00ACE538 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C9DBA81B3C50D000ACE538 /* QuartzCore.framework */; };
+		10E5CD421B3B208A008EB48C /* Background@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10E5CD3F1B3B208A008EB48C /* Background@3x.png */; };
+		10E5CD431B3B208A008EB48C /* Background@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10E5CD401B3B208A008EB48C /* Background@1x.png */; };
+		10E5CD441B3B208A008EB48C /* Background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10E5CD411B3B208A008EB48C /* Background@2x.png */; };
+		10E5CD491B3B2314008EB48C /* Card@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10E5CD461B3B2314008EB48C /* Card@3x.png */; };
+		10E5CD4A1B3B2314008EB48C /* Card@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10E5CD471B3B2314008EB48C /* Card@2x.png */; };
+		10E5CD4B1B3B2314008EB48C /* Card@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10E5CD481B3B2314008EB48C /* Card@1x.png */; };
+		10E5CD4E1B3B2587008EB48C /* TodayEnglishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E5CD4D1B3B2587008EB48C /* TodayEnglishViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +53,51 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		102FA8C71B4055D000F5C185 /* ScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreViewController.h; sourceTree = "<group>"; };
+		102FA8C81B4055D000F5C185 /* ScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreViewController.m; sourceTree = "<group>"; };
+		102FA8CA1B4074D800F5C185 /* BuildWordTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildWordTableViewController.h; sourceTree = "<group>"; };
+		102FA8CB1B4074D800F5C185 /* BuildWordTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuildWordTableViewController.m; sourceTree = "<group>"; };
 		107A2D6E1B25C57C00CB567D /* 單字卡.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "單字卡.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		107A2D721B25C57C00CB567D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		107A2D731B25C57C00CB567D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		107A2D751B25C57C00CB567D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		107A2D761B25C57C00CB567D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		107A2D781B25C57C00CB567D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		107A2D791B25C57C00CB567D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		107A2D7C1B25C57C00CB567D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		107A2D7E1B25C57C00CB567D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		107A2D811B25C57C00CB567D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		107A2D871B25C57C00CB567D /* 單字卡Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "單字卡Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		107A2D8C1B25C57C00CB567D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		107A2D8D1B25C57C00CB567D /* ___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___Tests.m"; sourceTree = "<group>"; };
+		107F3CC61B3E95AA00AFBA1C /* WordTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordTestViewController.h; sourceTree = "<group>"; };
+		107F3CC71B3E95AA00AFBA1C /* WordTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordTestViewController.m; sourceTree = "<group>"; };
+		107F3CCA1B3E9D9D00AFBA1C /* chineseAnser@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chineseAnser@3x.png"; sourceTree = "<group>"; };
+		107F3CCB1B3E9D9D00AFBA1C /* wordTestCard@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wordTestCard@3x.png"; sourceTree = "<group>"; };
+		107F3CCC1B3E9D9D00AFBA1C /* chineseAnser@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chineseAnser@2x.png"; sourceTree = "<group>"; };
+		107F3CCD1B3E9D9D00AFBA1C /* wordTestCard@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wordTestCard@1x.png"; sourceTree = "<group>"; };
+		107F3CCE1B3E9D9D00AFBA1C /* wordTestCard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wordTestCard@2x.png"; sourceTree = "<group>"; };
+		107F3CCF1B3E9D9D00AFBA1C /* chineseAnser@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chineseAnser@1x.png"; sourceTree = "<group>"; };
+		107F3CD61B3EE16700AFBA1C /* wrong@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wrong@1x.png"; sourceTree = "<group>"; };
+		107F3CD71B3EE16700AFBA1C /* wrong@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wrong@2x.png"; sourceTree = "<group>"; };
+		107F3CD81B3EE16700AFBA1C /* wrong@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wrong@3x.png"; sourceTree = "<group>"; };
+		107F3CD91B3EE16700AFBA1C /* corrent@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "corrent@2x.png"; sourceTree = "<group>"; };
+		107F3CDA1B3EE16700AFBA1C /* corrent@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "corrent@1x.png"; sourceTree = "<group>"; };
+		107F3CDB1B3EE16700AFBA1C /* corrent@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "corrent@3x.png"; sourceTree = "<group>"; };
+		107F3CE21B3F042500AFBA1C /* WordCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordCard.h; sourceTree = "<group>"; };
+		107F3CE31B3F042500AFBA1C /* WordCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordCard.m; sourceTree = "<group>"; };
+		107F3CE91B3FDFAD00AFBA1C /* WordCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordCardDeck.h; sourceTree = "<group>"; };
+		107F3CEA1B3FDFAD00AFBA1C /* WordCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordCardDeck.m; sourceTree = "<group>"; };
+		109BDCB41B41ABD900F293CF /* Property List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		109BDCF21B43015A00F293CF /* WordDataDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordDataDataBase.h; sourceTree = "<group>"; };
+		109BDCF31B43015A00F293CF /* WordDataDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordDataDataBase.m; sourceTree = "<group>"; };
+		10C9DBA81B3C50D000ACE538 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		10E5CD3F1B3B208A008EB48C /* Background@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background@3x.png"; sourceTree = "<group>"; };
+		10E5CD401B3B208A008EB48C /* Background@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background@1x.png"; sourceTree = "<group>"; };
+		10E5CD411B3B208A008EB48C /* Background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background@2x.png"; sourceTree = "<group>"; };
+		10E5CD461B3B2314008EB48C /* Card@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Card@3x.png"; sourceTree = "<group>"; };
+		10E5CD471B3B2314008EB48C /* Card@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Card@2x.png"; sourceTree = "<group>"; };
+		10E5CD481B3B2314008EB48C /* Card@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Card@1x.png"; sourceTree = "<group>"; };
+		10E5CD4C1B3B2587008EB48C /* TodayEnglishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayEnglishViewController.h; sourceTree = "<group>"; };
+		10E5CD4D1B3B2587008EB48C /* TodayEnglishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayEnglishViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10C9DBAB1B3C51BB00ACE538 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,13 +140,10 @@
 		107A2D701B25C57C00CB567D /* 單字卡 */ = {
 			isa = PBXGroup;
 			children = (
-				107A2D751B25C57C00CB567D /* AppDelegate.h */,
-				107A2D761B25C57C00CB567D /* AppDelegate.m */,
-				107A2D781B25C57C00CB567D /* ViewController.h */,
-				107A2D791B25C57C00CB567D /* ViewController.m */,
 				107A2D7B1B25C57C00CB567D /* Main.storyboard */,
-				107A2D7E1B25C57C00CB567D /* Images.xcassets */,
-				107A2D801B25C57C00CB567D /* LaunchScreen.xib */,
+				10B547461B4494F100B3B505 /* View */,
+				107F3CC91B3E95B200AFBA1C /* Controller */,
+				10E5CD3E1B3B02A2008EB48C /* Model */,
 				107A2D711B25C57C00CB567D /* Supporting Files */,
 			);
 			path = "單字卡";
@@ -96,6 +152,12 @@
 		107A2D711B25C57C00CB567D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				10E5CD451B3B208F008EB48C /* Images */,
+				10C9DBA81B3C50D000ACE538 /* QuartzCore.framework */,
+				107A2D751B25C57C00CB567D /* AppDelegate.h */,
+				107A2D761B25C57C00CB567D /* AppDelegate.m */,
+				107A2D7E1B25C57C00CB567D /* Images.xcassets */,
+				107A2D801B25C57C00CB567D /* LaunchScreen.xib */,
 				107A2D721B25C57C00CB567D /* Info.plist */,
 				107A2D731B25C57C00CB567D /* main.m */,
 			);
@@ -117,6 +179,123 @@
 				107A2D8C1B25C57C00CB567D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		107F3CC91B3E95B200AFBA1C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				109BDCB01B415AAB00F293CF /* TodayWord */,
+				109BDCB11B415ABC00F293CF /* WordTest */,
+				109BDCB21B415AD700F293CF /* TestScore */,
+				109BDCB31B415AF600F293CF /* BuildWord */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		109BDCB01B415AAB00F293CF /* TodayWord */ = {
+			isa = PBXGroup;
+			children = (
+				10E5CD4C1B3B2587008EB48C /* TodayEnglishViewController.h */,
+				10E5CD4D1B3B2587008EB48C /* TodayEnglishViewController.m */,
+			);
+			name = TodayWord;
+			sourceTree = "<group>";
+		};
+		109BDCB11B415ABC00F293CF /* WordTest */ = {
+			isa = PBXGroup;
+			children = (
+				107F3CC61B3E95AA00AFBA1C /* WordTestViewController.h */,
+				107F3CC71B3E95AA00AFBA1C /* WordTestViewController.m */,
+			);
+			name = WordTest;
+			sourceTree = "<group>";
+		};
+		109BDCB21B415AD700F293CF /* TestScore */ = {
+			isa = PBXGroup;
+			children = (
+				102FA8C71B4055D000F5C185 /* ScoreViewController.h */,
+				102FA8C81B4055D000F5C185 /* ScoreViewController.m */,
+			);
+			name = TestScore;
+			sourceTree = "<group>";
+		};
+		109BDCB31B415AF600F293CF /* BuildWord */ = {
+			isa = PBXGroup;
+			children = (
+				102FA8CA1B4074D800F5C185 /* BuildWordTableViewController.h */,
+				102FA8CB1B4074D800F5C185 /* BuildWordTableViewController.m */,
+			);
+			name = BuildWord;
+			sourceTree = "<group>";
+		};
+		10B547441B44949500B3B505 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				109BDCB41B41ABD900F293CF /* Property List.plist */,
+				109BDCF21B43015A00F293CF /* WordDataDataBase.h */,
+				109BDCF31B43015A00F293CF /* WordDataDataBase.m */,
+			);
+			name = DataBase;
+			sourceTree = "<group>";
+		};
+		10B547451B4494A800B3B505 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				107F3CE21B3F042500AFBA1C /* WordCard.h */,
+				107F3CE31B3F042500AFBA1C /* WordCard.m */,
+				107F3CE91B3FDFAD00AFBA1C /* WordCardDeck.h */,
+				107F3CEA1B3FDFAD00AFBA1C /* WordCardDeck.m */,
+			);
+			name = DAO;
+			sourceTree = "<group>";
+		};
+		10B547461B4494F100B3B505 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				10B547471B4494FC00B3B505 /* View Class */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		10B547471B4494FC00B3B505 /* View Class */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "View Class";
+			sourceTree = "<group>";
+		};
+		10E5CD3E1B3B02A2008EB48C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				10B547451B4494A800B3B505 /* DAO */,
+				10B547441B44949500B3B505 /* DataBase */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		10E5CD451B3B208F008EB48C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				107F3CD61B3EE16700AFBA1C /* wrong@1x.png */,
+				107F3CD71B3EE16700AFBA1C /* wrong@2x.png */,
+				107F3CD81B3EE16700AFBA1C /* wrong@3x.png */,
+				107F3CD91B3EE16700AFBA1C /* corrent@2x.png */,
+				107F3CDA1B3EE16700AFBA1C /* corrent@1x.png */,
+				107F3CDB1B3EE16700AFBA1C /* corrent@3x.png */,
+				107F3CCA1B3E9D9D00AFBA1C /* chineseAnser@3x.png */,
+				107F3CCB1B3E9D9D00AFBA1C /* wordTestCard@3x.png */,
+				107F3CCC1B3E9D9D00AFBA1C /* chineseAnser@2x.png */,
+				107F3CCD1B3E9D9D00AFBA1C /* wordTestCard@1x.png */,
+				107F3CCE1B3E9D9D00AFBA1C /* wordTestCard@2x.png */,
+				107F3CCF1B3E9D9D00AFBA1C /* chineseAnser@1x.png */,
+				10E5CD3F1B3B208A008EB48C /* Background@3x.png */,
+				10E5CD401B3B208A008EB48C /* Background@1x.png */,
+				10E5CD411B3B208A008EB48C /* Background@2x.png */,
+				10E5CD461B3B2314008EB48C /* Card@3x.png */,
+				10E5CD471B3B2314008EB48C /* Card@2x.png */,
+				10E5CD481B3B2314008EB48C /* Card@1x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +378,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				107F3CD21B3E9D9D00AFBA1C /* chineseAnser@2x.png in Resources */,
+				107F3CDD1B3EE16700AFBA1C /* wrong@2x.png in Resources */,
+				107F3CDF1B3EE16700AFBA1C /* corrent@2x.png in Resources */,
+				107F3CD11B3E9D9D00AFBA1C /* wordTestCard@3x.png in Resources */,
+				107F3CD41B3E9D9D00AFBA1C /* wordTestCard@2x.png in Resources */,
+				10E5CD441B3B208A008EB48C /* Background@2x.png in Resources */,
 				107A2D7D1B25C57C00CB567D /* Main.storyboard in Resources */,
+				107F3CDC1B3EE16700AFBA1C /* wrong@1x.png in Resources */,
+				10E5CD4A1B3B2314008EB48C /* Card@2x.png in Resources */,
+				107F3CD01B3E9D9D00AFBA1C /* chineseAnser@3x.png in Resources */,
 				107A2D821B25C57C00CB567D /* LaunchScreen.xib in Resources */,
+				107F3CE01B3EE16700AFBA1C /* corrent@1x.png in Resources */,
 				107A2D7F1B25C57C00CB567D /* Images.xcassets in Resources */,
+				10E5CD491B3B2314008EB48C /* Card@3x.png in Resources */,
+				10E5CD431B3B208A008EB48C /* Background@1x.png in Resources */,
+				107F3CE11B3EE16700AFBA1C /* corrent@3x.png in Resources */,
+				10E5CD4B1B3B2314008EB48C /* Card@1x.png in Resources */,
+				107F3CD51B3E9D9D00AFBA1C /* chineseAnser@1x.png in Resources */,
+				107F3CDE1B3EE16700AFBA1C /* wrong@3x.png in Resources */,
+				107F3CD31B3E9D9D00AFBA1C /* wordTestCard@1x.png in Resources */,
+				109BDCB51B41ABD900F293CF /* Property List.plist in Resources */,
+				10E5CD421B3B208A008EB48C /* Background@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +417,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				107A2D7A1B25C57C00CB567D /* ViewController.m in Sources */,
+				107F3CC81B3E95AA00AFBA1C /* WordTestViewController.m in Sources */,
+				102FA8C91B4055D000F5C185 /* ScoreViewController.m in Sources */,
+				109BDCF41B43015A00F293CF /* WordDataDataBase.m in Sources */,
+				10E5CD4E1B3B2587008EB48C /* TodayEnglishViewController.m in Sources */,
+				107F3CE41B3F042500AFBA1C /* WordCard.m in Sources */,
+				102FA8CC1B4074D800F5C185 /* BuildWordTableViewController.m in Sources */,
 				107A2D771B25C57C00CB567D /* AppDelegate.m in Sources */,
+				107F3CEB1B3FDFAD00AFBA1C /* WordCardDeck.m in Sources */,
 				107A2D741B25C57C00CB567D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +622,7 @@
 				107A2D931B25C57C00CB567D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		107A2D941B25C57C00CB567D /* Build configuration list for PBXNativeTarget "單字卡Tests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +631,7 @@
 				107A2D961B25C57C00CB567D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

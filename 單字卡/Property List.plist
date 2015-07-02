@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>world</key>
+	<string>世界</string>
+	<key>build</key>
+	<string>建造</string>
+	<key>child</key>
+	<string>小孩</string>
+	<key>cold</key>
+	<string>寒冷</string>
+	<key>gold</key>
+	<string>黃金</string>
+	<key>hold</key>
+	<string>拿著</string>
+	<key>old</key>
+	<string>年老的</string>
+	<key>wild</key>
+	<string>野生的</string>
+	<key>band</key>
+	<string>樂隊</string>
+	<key>blind</key>
+	<string>瞎的</string>
+	<key>around</key>
+	<string>環繞</string>
+	<key>diamond</key>
+	<string>鑽石</string>
+	<key>england</key>
+	<string>英格蘭</string>
+	<key>husband</key>
+	<string>丈夫</string>
+	<key>island</key>
+	<string>島嶼</string>
+	<key>pond</key>
+	<string>池塘</string>
+	<key>playground</key>
+	<string>遊樂場</string>
+	<key>part</key>
+	<string>局部</string>
+	<key>category</key>
+	<string>種類</string>
+	<key>speech</key>
+	<string>演說</string>
+</dict>
+</plist>

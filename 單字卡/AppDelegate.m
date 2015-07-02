@@ -16,7 +16,19 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    NSFileManager *fileManager = [[NSFileManager alloc] init];
+    //取得Property List.plist在專案的路徑
+    NSString *plistPath = [[NSBundle mainBundle] pathForResource:@"Property List"
+                                                          ofType:@"plist"];
+    //取得要複製到的目的路徑
+    NSString *destinationPath = [NSString stringWithFormat:@"%@/Documents/Property List.plist" ,NSHomeDirectory()];
+    
+    //檢查目的路徑的Property List.plit是否存在。如果不存在than複製檔案
+    if (![fileManager fileExistsAtPath:destinationPath]) {
+        [fileManager copyItemAtPath:plistPath toPath:destinationPath error:nil];
+    }
+    
     return YES;
 }
 
