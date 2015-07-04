@@ -26,9 +26,6 @@
 //隨機單字卡Deck
 @property (strong, nonatomic) NSMutableArray *randomWordCardDeck;
 
-
-
-
 @end
 
 

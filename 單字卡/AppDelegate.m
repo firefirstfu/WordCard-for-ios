@@ -1,10 +1,3 @@
-//
-//  AppDelegate.m
-//  單字卡
-//
-//  Created by OSX on 2015/6/8.
-//  Copyright (c) 2015年 OSX. All rights reserved.
-//
 
 #import "AppDelegate.h"
 
@@ -14,7 +7,7 @@
 
 @implementation AppDelegate
 
-
+//Plist初始化
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     NSFileManager *fileManager = [[NSFileManager alloc] init];
@@ -31,6 +24,29 @@
     
     return YES;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

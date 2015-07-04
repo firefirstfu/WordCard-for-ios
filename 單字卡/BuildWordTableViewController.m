@@ -60,6 +60,9 @@
                                                            NSIndexPath *insertIndex = [NSIndexPath indexPathForRow:0 inSection:0];
                                                            //開始把資料插入TableView(以陣列型態)
                                                            [self.tableView insertRowsAtIndexPaths:@[insertIndex] withRowAnimation:UITableViewRowAnimationAutomatic];
+                                                           
+                                                           //比較: 1個是inser, 另1個是delete
+//                                                            [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
                                                        }];
     //作第2個按鈕物件
     UIAlertAction *alertCancel = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleDefault
@@ -152,9 +155,12 @@
     if (editingStyle == UITableViewCellEditingStyleDelete) {
         [_nowDataBaseWordCards removeCard:indexPath.row];
         [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
+        
+        
     } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-    }   
+    }
 }
+
 
 //寫入PList
 -(void) viewDidDisappear:(BOOL)animated{
