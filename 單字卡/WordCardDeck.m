@@ -55,7 +55,9 @@
 
 //增加單字卡
 -(void) addCard:(WordCard*)wordCard{
-    [self.wordCardDeck addObject:wordCard];
+    WordCard *test = wordCard;
+    WordCard *testTwo = test;
+    [self.wordCardDeck addObject:testTwo];
 }
 
 //移除單字卡
