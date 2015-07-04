@@ -10,13 +10,6 @@
 
 @implementation WordDataDataBase
 
-////getter
-//-(NSMutableDictionary*) plistData{
-//    if (!_plistData) {
-//        _plistData = [[NSMutableDictionary alloc] init];
-//    }
-//    return _plistData;
-//}
 
 //撈Plist Data
 -(NSMutableDictionary*) getDataInPlist{
