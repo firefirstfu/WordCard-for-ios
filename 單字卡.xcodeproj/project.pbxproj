@@ -140,7 +140,6 @@
 		107A2D701B25C57C00CB567D /* 單字卡 */ = {
 			isa = PBXGroup;
 			children = (
-				107A2D7B1B25C57C00CB567D /* Main.storyboard */,
 				10B547461B4494F100B3B505 /* View */,
 				107F3CC91B3E95B200AFBA1C /* Controller */,
 				10E5CD3E1B3B02A2008EB48C /* Model */,
@@ -252,6 +251,7 @@
 		10B547461B4494F100B3B505 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				107A2D7B1B25C57C00CB567D /* Main.storyboard */,
 				10B547471B4494FC00B3B505 /* View Class */,
 			);
 			name = View;

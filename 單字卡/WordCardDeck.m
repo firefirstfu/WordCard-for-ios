@@ -22,6 +22,8 @@
         
         NSArray *englishWordArray = [dataDict allKeys];
         NSArray *chineseWordArray = [dataDict allValues];
+        
+        //這裡要改
 //        for (NSString *strs in chineseWordArray) {
 //            NSLog(@"%@", strs);
 //        }

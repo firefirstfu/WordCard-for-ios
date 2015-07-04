@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5D2423D6-C8D8-451A-94A5-CAA2E4E15BF4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>單字卡</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A1FAA613A7B98FAF7F1EA3772980FB69F178D528</key>
+		<string>github.com:firefirstfu/WordCard-for-ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>單字卡.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>A1FAA613A7B98FAF7F1EA3772980FB69F178D528</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:firefirstfu/WordCard-for-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A1FAA613A7B98FAF7F1EA3772980FB69F178D528</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A1FAA613A7B98FAF7F1EA3772980FB69F178D528</string>
+			<key>IDESourceControlWCCName</key>
+			<string>%E5%96%AE%E5%AD%97%E5%8D%A1</string>
+		</dict>
+	</array>
+</dict>
+</plist>
