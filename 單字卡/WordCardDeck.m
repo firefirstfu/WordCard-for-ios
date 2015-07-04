@@ -38,7 +38,7 @@
             wordCard.chineseWord = chineseWordArray[count];
             wordCard.random4ChineseWord = [WordCardDeck createRandom4ChineseWord:chineseWordArray
                                                                     withWordCard:wordCard];
-            [self addCard:wordCard];            
+            [self addCard:wordCard];
         }
         return self;
     }

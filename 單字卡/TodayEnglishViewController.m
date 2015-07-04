@@ -90,6 +90,9 @@
     }
 }
 
+
+
+
 //附著動畫
 -(void) imageTapAnimation:(UITapGestureRecognizer*)sender{
     //宣告一個CATransition
@@ -154,6 +157,9 @@
 -(void) animationDidStop:(CAAnimation *)anim finished:(BOOL)flag{
     _theLabel.hidden = NO;
 }
+
+
+
 
 
 
