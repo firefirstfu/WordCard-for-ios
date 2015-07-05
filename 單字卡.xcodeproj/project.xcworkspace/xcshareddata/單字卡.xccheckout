@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>5D2423D6-C8D8-451A-94A5-CAA2E4E15BF4</string>
 	<key>IDESourceControlProjectName</key>
-	<string>單字卡</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>A1FAA613A7B98FAF7F1EA3772980FB69F178D528</key>
 		<string>github.com:firefirstfu/WordCard-for-ios.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>單字卡.xcodeproj</string>
+	<string>單字卡.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>A1FAA613A7B98FAF7F1EA3772980FB69F178D528</key>
